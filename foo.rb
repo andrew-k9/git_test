@@ -3,6 +3,8 @@
 require_relative 'binary.rb'
 require_relative 'insert.rb'
 
+# Prints an array of length 100, and checks to see if a random number is in the array
+# Why? ¯\_(ツ)_/¯
 def foo()
   array = Array.new(100) { rand(0...100)}
   array = insert(array)
